@@ -1,0 +1,30 @@
+body {
+    font-family: 'Lobster', cursive;
+    background-image: url("images/200_s.gif")
+}
+
+header { 
+    background-color:#D82D7A;
+    color:#FFE158;
+    text-align:center;
+    padding:20px;
+    margin: 10px;
+}
+
+label { 
+    color: white;
+    text-align:center;
+}
+
+p {
+    font-weight:bold;
+    color:white;
+}
+.btn {
+    margin:5px;
+}
+
+.gifHolder {
+    display:inline-block;
+    margin:5px;
+}
