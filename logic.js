@@ -6,7 +6,7 @@ $(document).ready(function() {
     function displayGifInfo() {
 
         var topic = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=f0fdbd09d1ab46ce8f53fdff5d104aad&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=f0fdbd09d1ab46ce8f53fdff5d104aad&limit=10";
         // console.log(queryURL);
         
         // Creates AJAX call for the specific topic button being clicked
